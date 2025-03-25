@@ -1,5 +1,5 @@
 
-Implementation of **[HiLoTs: High-Low Temporal Sensitive Representation Learning for Semi-Supervised LiDAR Segmentation in Autonomous Driving](#)**
+Implementation of **[HiLoTs: High-Low Temporal Sensitive Representation Learning for Semi-Supervised LiDAR Segmentation in Autonomous Driving](https://arxiv.org/abs/2503.17752)**
 
 ## Motivation
 
