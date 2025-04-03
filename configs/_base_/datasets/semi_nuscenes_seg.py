@@ -268,8 +268,7 @@ test_dataloader = dict(
         backend_args=backend_args))
 
 val_evaluator = dict(type='SegMetric')
-# test_evaluator = val_evaluator
-test_evaluator = dict(type='SegMetric', jsonfile_prefix='work_dirs/my_model_nus_10/results_eval.json')
+test_evaluator = val_evaluator
 
 vis_backends = [dict(type='LocalVisBackend')]
 visualizer = dict(
