@@ -17,6 +17,38 @@ HEU consists of High Temporal Sensitive Flow (HTSF) and Low Temporal Sensitive F
 <p align="center"><img src="./imgs/methods.png" width="700"/></p>
 <p align="center"><i>Figure 2. Overall architecture</i></p>
 
-## Code Implementation
+## Implementation
 
-Comming soon
+Requirements:
+```
+python
+torch
+mmcv
+mmdet3d
+mmengine
+```
+
+Structure:
+```
+configs
+| hilots
+
+mmdet3d
+| models
+| | backbones
+| | | minkunet_backbone.py
+| | segmentors
+| | | hilots.py
+| | voxel_encoders
+| | | voxel_encoder.py
+```
+
+Model training:
+```
+python tools/train.py configs/hilots/hilots_semantickitti_10.py
+```
+
+## Acknowledgement
+
+
+## Citation
