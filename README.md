@@ -108,7 +108,7 @@ HEU consists of High Temporal Sensitive Flow (HTSF) and Low Temporal Sensitive F
 
 The left three columns are segmentation results from SemanticKITTI dataset, while the right three columns are from nuScenes. Our HiLoTs method shows a significant improvement in the area of distant objects.
 
-<p align="center"><img src="./imgs/visualization.png" width="600"/></p>
+<p align="center"><img src="./imgs/visualization.png" width="1000"/></p>
 <!-- <p align="center"><i>Figure 1. Motivation</i></p> -->
 
 
