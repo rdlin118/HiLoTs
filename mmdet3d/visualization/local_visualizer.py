@@ -174,14 +174,6 @@ class Det3DLocalVisualizer(DetLocalVisualizer):
         glfw_key_right = 262  # Right
         o3d_vis = o3d.visualization.VisualizerWithKeyCallback()
 
-        print()
-        print()
-        print()
-        print(f'visualization initializing!!')
-        print()
-        print()
-        print()
-
         o3d_vis.register_key_callback(glfw_key_escape, self.escape_callback)
         o3d_vis.register_key_action_callback(glfw_key_space,
                                              self.space_action_callback)
